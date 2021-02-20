@@ -80,6 +80,16 @@
   </ul>
 </p>
 
+<a id="h2config"> </a>
+## Configurar o H2 console
+
+<p>
+ 
+ ![alt text](h2-images/1.png)
+ 
+</p>
+
+
 <a id="features"> </a>
 ## Features
 
