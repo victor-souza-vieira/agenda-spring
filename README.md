@@ -90,7 +90,7 @@
         como mostra a próxima imagem.
   </p>
 
-    ![](/images/1.png)
+    ![Screenshot](images/1.png?raw=true)
 
 
 <a id="features"> </a>
