@@ -89,7 +89,7 @@
  como mostra a próxima imagem.
   </p>
    
-    ![teste](h2-images/1.PNG)
+    ![alt text](h2-images/1.png)
 
 
 <a id="features"> </a>
