@@ -96,6 +96,18 @@
 
 ![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/1.PNG)
 
+<p>
+ 2 - Em seguida no campo <b> JDBC URL</b> digite o seguinte código
+</p>
+
+```
+jdbc:h2:file:C:/h2/agenda
+```
+a próxima imagem ilustra este fato. Vale ressaltar que o código acima se refere
+a linha do application properties que contém a <b> spring.datasource.url  exceto: ;DB_CLOSE_ON_EXIT=FALSE </b> 
+
+![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/2.PNG)
+
 
 <a id="features"> </a>
 ## Features
