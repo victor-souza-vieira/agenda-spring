@@ -83,11 +83,13 @@
 <a id="h2config"> </a>
 ## Configurar o H2 console
 
-<p>
- 
- ![alt text](h2-images/1.png)
- 
-</p>
+  <p> 
+    1 - É preciso executar a aplicação spring para pode acessar o console do h2.
+ Após, se seguiu a mesma configuração da <a href="app"> application properties </a>, digite localhost:8080/h2-console no seu navegador
+ como mostra a próxima imagem.
+  </p>
+   
+    ![teste](h2-images/1.PNG)
 
 
 <a id="features"> </a>
