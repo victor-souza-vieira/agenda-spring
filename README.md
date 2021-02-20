@@ -89,11 +89,9 @@
         digite localhost:8080/h2-console no seu navegador
         como mostra a próxima imagem.
   </p>
-   <p>
- 
-    ![alt text](AgendaBasica/images/1.png)
-    
-   </p>
+
+    ![](/images/1.png)
+
 
 <a id="features"> </a>
 ## Features
