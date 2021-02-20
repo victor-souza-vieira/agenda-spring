@@ -90,7 +90,7 @@
         como mostra a próxima imagem.
   </p>
 
-![](https://drive.google.com/file/d/1EQXHkTEFyy0WIGVvX-iGrp5ERYAKCUR3/view?usp=sharing)
+![](https://drive.google.com/file/d/1EQXHkTEFyy0WIGVvX-iGrp5ERYAKCUR3/view?w=512)
 
 
 <a id="features"> </a>
