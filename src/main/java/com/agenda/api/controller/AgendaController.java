@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
@@ -43,8 +44,21 @@ public class AgendaController {
 		return contatoRepository.save(contato);
 	}
 	
+	@PutMapping("/{idContato}")
+	@ResponseStatus(HttpStatus.OK)
+	public Contato editar(@PathVariable Long idContato, @RequestBody Contato contato) throws NotFoundException {
+		Contato existe = contatoRepository.findById(idContato)
+				.orElseThrow(() -> new NotFoundException("Contato não encontrado"));
+		contato.setId(existe.getId());
+		return contatoRepository.save(contato);
+	}
+	
 	@DeleteMapping("/{idContato}")
-	public void deletar() {
-		
+	@ResponseStatus(HttpStatus.NO_CONTENT)
+	public void deletar(@PathVariable Long idContato) throws NotFoundException {
+		Contato contato = contatoRepository.findById(idContato)
+				.orElseThrow(() -> new NotFoundException("Contato não encontrado"));
+		contato.setId(idContato);
+		contatoRepository.delete(contato);	
 	}
 }

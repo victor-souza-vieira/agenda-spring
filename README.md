@@ -88,8 +88,8 @@
   - [X] - Listar contatos
   - [X] - Buscar contatos por id
   - [X] - Adicionar contatos
-  - [ ] - Editar contatos
-  - [ ] - Excluir contatos
+  - [X] - Editar contatos
+  - [X] - Excluir contatos
   
 </p>
 
