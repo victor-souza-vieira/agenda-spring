@@ -90,7 +90,8 @@
         como mostra a próxima imagem.
   </p>
    <p>
-    <img src="h2-images/1.png">
+ 
+    ![image](h2-images/1.png)
    </p>
 
 <a id="features"> </a>
