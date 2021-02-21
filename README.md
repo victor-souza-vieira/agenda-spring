@@ -2,8 +2,6 @@
 
 <p> Projeto bem simples utilizando spring para ilustrar alguns conceitos </p>
 
-#### Este readme ainda está em construção xD
-
 =================
 
 <p align="center">
@@ -12,8 +10,8 @@
  <a href="#app">Application Properties</a> • 
  <a href="#h2config">Configurar o H2 console</a> • 
  <a href="#end">End Points</a> • 
- <a href="#tecnologias">Tecnologias</a> •
  <a href="#features">Features</a> • 
+ <a href="#consid">Considerações</a> • 
 </p>
 
 <a id="sobre"> </a>
@@ -166,6 +164,22 @@ Pronto! Com isso seu H2 já está configurado e pronto para ter os dados persist
   - [X] - Excluir contatos
   
 </p>
+
+<a id="consid"> </a>
+## Considerações
+
+<p> 
+ Sinta-se livre para clonar ou fazer um fork deste repositório. <br>
+ Para este projeto não utilizei nenhum DTO mas, pretendo. <br>
+ Neste projeto também não realizei nenhum tratamento de erro específico, ou seja,
+ quando algum id é informado errado para algum end point a aplicação devolve
+ um json contendo os erros e dentro desse json tem um trace que vem erros do java, sei que não é o ideal
+ mostrar o trace desta forma para um consumidor mas, pretendo em outro momento resolver esse probleminha. <br>
+ Acredito não ter mais nenhuma consideração. <br> <br> <br> <br> <br>
+ ps: Demorei mais tempo escrevendo esse readme do que fazendo a api hahaha.
+ 
+</p>
+
 
  
   
