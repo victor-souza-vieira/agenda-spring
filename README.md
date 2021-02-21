@@ -1,4 +1,4 @@
-<h1> Agendinha ^~^ </h1>
+<h1> Agenda (extremamente básica) </h1>
 
 <p> Projeto bem simples utilizando spring para ilustrar alguns conceitos </p>
 
@@ -10,6 +10,7 @@
  <a href="#app">Application Properties</a> • 
  <a href="#h2config">Configurar o H2 console</a> • 
  <a href="#end">End Points</a> • 
+  <a href="#model">Model contato</a> • 
  <a href="#features">Features</a> • 
  <a href="#consid">Considerações</a> • 
 </p>
@@ -136,7 +137,12 @@ Pronto! Com isso seu H2 já está configurado e pronto para ter os dados persist
   <li> Método: PUT <br> URI: /contatos/idContato <br> Modifica os atributos de um contato </li>
   <li> Método: DELETE <br> URI: /contatos/idContato <br> Exclui o contato com aquele id ou retorna um erro </li>
   </ul>
-  
+ </p> 
+ 
+<a id="model"> </a>
+## Model contato
+
+ <p>
   Os atributos de um contato são:
   
  ```
@@ -148,7 +154,6 @@ Pronto! Com isso seu H2 já está configurado e pronto para ter os dados persist
     "telefone2": String de até 255 caracteres
   }
  ```
-
 </p>
 
 
