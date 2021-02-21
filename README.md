@@ -11,6 +11,7 @@
  <a href="#libs">Dependências</a> •
  <a href="#app">Application Properties</a> • 
  <a href="#h2config">Configurar o H2 console</a> • 
+ <a href="#end">End Points</a> • 
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#features">Features</a> • 
 </p>
@@ -125,6 +126,33 @@ a linha do application properties que contém a <b> spring.datasource.url  excet
 ![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/4.PNG)
 
 Pronto! Com isso seu H2 já está configurado e pronto para ter os dados persistidos. xD
+
+<a id="end"> </a>
+## End Points
+
+<p> 
+ <ul>
+  <li> Método: GET <br> URI: /contatos <br> Exibe todos os contatos </li>
+  <li> Método: GET <br> URI: /contatos/idContato <br> Exibe o contato com aquele id ou retorna um erro </li>
+  <li> Método: POST <br> URI: /contatos <br> Adiciona um novo contato </li>
+  <li> Método: PUT <br> URI: /contatos/idContato <br> Modifica os atributos de um contato </li>
+  <li> Método: DELETE <br> URI: /contatos/idContato <br> Exclui o contato com aquele id ou retorna um erro </li>
+  </ul>
+  
+  Os atributos de um contato são:
+  
+ ```
+   {
+    "id": Long,
+    "nome": String de até 255 caracteres,
+    "email": String de até 255 caracteres,
+    "telefone1": String de até 255 caracteres,
+    "telefone2": String de até 255 caracteres
+  }
+ ```
+
+</p>
+
 
 <a id="features"> </a>
 ## Features
