@@ -108,6 +108,23 @@ a linha do application properties que contém a <b> spring.datasource.url  excet
 
 ![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/2.PNG)
 
+<p> 
+ 3 - Clique no botão <i> <b> Test Connection </b> </i> se o resultado for <i> <b> Test successful </b> </i>
+ sua conexão com o h2 está funcionando perfeitamente, caso contrário será preciso verificar se o passo 2 foi feito
+ de forma correta. Eu teste essa url apenas no windows, para o linux acredito que vá depender de onde vc queira salvar o 
+ arquivo do seu BD. Segue imagem desta etapa.
+</p>
+
+![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/3.PNG)
+
+<p> 
+ 4 - Opcional. Caso queira ver como está sua base de dados clique no botão <i> <b> Connect </b> </i>
+ e sua base de dados irá aparecer no canto superior esquerdo da tela.
+</p>
+
+![](https://github.com/victor-souza-vieira/agenda-spring/blob/master/images/4.PNG)
+
+Pronto! Com isso seu H2 já está configurado e pronto para ter os dados persistidos. xD
 
 <a id="features"> </a>
 ## Features
