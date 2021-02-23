@@ -6,4 +6,6 @@ import com.agenda.domain.model.Contato;
 
 public interface ContatoRepository extends JpaRepository<Contato, Long>{
 
+	public Contato findByEmail(String email);
+	
 }
