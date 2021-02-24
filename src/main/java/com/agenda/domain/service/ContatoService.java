@@ -21,7 +21,6 @@ public class ContatoService {
 		}
 		
 		return contatoRepository.save(contato);
-		
 	}
 	
 }
